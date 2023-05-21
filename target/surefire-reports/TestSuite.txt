@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 23.517 s <<< FAILURE! - in TestSuite
+runScenario(com.test.testRunner.TestRunner)  Time elapsed: 20.879 s  <<< FAILURE!
+java.lang.AssertionError: expected [1] but found []
+
+tearDownClass(com.test.testRunner.TestRunner)  Time elapsed: 21.738 s  <<< FAILURE!
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.lang.String java.lang.Throwable.detailMessage accessible: module java.base does not "opens java.lang" to unnamed module @57855c9a
+

@@ -1,0 +1,24 @@
+INFO    2023-05-21 20:36:14,225 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 20:36:15,111 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 20:36:15,136 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 20:50:15,364 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 20:50:16,237 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 20:50:16,261 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:34:07,234 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:34:08,093 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:34:08,233 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:37:13,723 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:37:14,578 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:37:14,593 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:38:10,251 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:38:12,073 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:38:12,095 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:40:00,452 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:40:01,380 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:40:01,404 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:40:37,218 [main] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:40:38,088 [main] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:40:38,115 [main] devpinoyLogger  - successfully navigated to accounts login page
+INFO    2023-05-21 21:43:39,109 [TestNG-PoolService-0] devpinoyLogger  - lauched the app successfully
+INFO    2023-05-21 21:43:40,162 [TestNG-PoolService-0] devpinoyLogger  - clicked on login or register link
+INFO    2023-05-21 21:43:40,203 [TestNG-PoolService-0] devpinoyLogger  - successfully navigated to accounts login page
