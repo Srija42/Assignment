@@ -1,14 +1,14 @@
 Feature: Register User
 
 Background: To launch the application and navigate to registration page
-Given I am on landing page
-When I click on Login Or Register link
-Then I see Account Login page is displayed
+Given The user is on landing page
+When The user clicks on Login Or Register link
+Then The user sees Account Login page is displayed
 
 Scenario: To Regiser a user
-Given I click on continue button for Register
-When I enter the details and click on continue
-Then I see that new user registration is successful
+Given The user clicks on continue button for Register
+When The user enters the details and click on continue
+Then The user sees that new user registration is successful
 
 
 

@@ -1,7 +1,4 @@
 package stepDefinitions;
-
-
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -27,12 +24,12 @@ public class CreateAccountPageSteps {
 	
 	
 
-	@When("I enter the details and click on continue")
+	@When("The user enters the details and click on continue")
 	public void i_enter_the_details_and_click_on_continue() {
 		CreateAccountPage.using(driver).enterUserDetails();
 	}
 
-	@Then("I see that new user registration is successful")
+	@Then("The user sees that new user registration is successful")
 	public void i_see_that_new_user_registration_is_successful() {
 	    
 	}

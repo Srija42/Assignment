@@ -1,14 +1,14 @@
 Feature: Login User and Add product
 
 Background: To login with credentials
-Given I am on login page
-When I enter valid credentials and click on login button
-Then I see user is successfully logged in
+Given The user is on login page
+When The user enters valid credentials and click on login button
+Then The user sees user is successfully logged in
 
 Scenario: To check out a product and validate details
-Given I am on home page
-When I select a product and checkout
-Then I validate the details of product
+Given The user is on home page
+When The user selects a product and checkout
+Then The user validates the details of product
 
 
 

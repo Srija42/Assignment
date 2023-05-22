@@ -8,6 +8,6 @@ public class TestData {
 	private TestData(){
 	}
 	
-	public static final String START_URL = "https://prodigylabs.net/";
+	public static final String START_URL = "https://automationteststore.com/";
 	
 }

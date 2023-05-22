@@ -1,7 +1,5 @@
 package stepDefinitions;
 
-
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,19 +23,19 @@ public class HomePageSteps {
 	}
 	
 	
-	@Given("I am on home page")
+	@Given("The user is on home page")
 	public void i_am_on_home_page() {
 	    HomePage.using(driver).validateUser();
 	}
 
-	@When("I select a product and checkout")
+	@When("The user selects a product and checkout")
 	public void i_select_a_product_and_checkout() {
 		HomePage.using(driver).navigateToPaperBackBooks();
 		HomePage.using(driver).checkOutBook();
 	   
 	}
 
-	@Then("I validate the details of product")
+	@Then("The user validates the details of product")
 	public void i_validate_the_details_of_product() {
 		HomePage.using(driver).naviageToCart();
 		HomePage.using(driver).validateProductDetails();

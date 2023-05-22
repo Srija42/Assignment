@@ -28,18 +28,18 @@ public class LoginPageSteps {
 	
 	
 
-	@Given("I am on login page")
+	@Given("The user is on login page")
 	public void i_am_on_login_page() {
 	    LandingPage.using(driver).launchApplication();
 	    LandingPage.using(driver).clickOnLoginOrRegisterLink();
 	}
 	
-	@When("I enter valid credentials and click on login button")
+	@When("The user enters valid credentials and click on login button")
 	public void i_enter_valid_credentials_and_click_on_login_button() {
 		LoginPage.using(driver).Login();
 	}
 	
-	@Then("I see user is successfully logged in")
+	@Then("The user sees user is successfully logged in")
 	public void i_see_user_is_successfully_logged_in() {
 	    HomePage.using(driver).validateUser();
 	}
